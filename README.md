@@ -30,17 +30,17 @@ $ ~/.dotfiles/scripts/setup-home.sh
 
 Before installation:
 
-1. Make sure the correct path to Homebrew is appended to your `$PATH`. This will depend on on wheter you're running an M1 or an Intel Mac.
+1. Make sure the correct path to Homebrew is appended to your `$PATH`. This will depend on whether you're running an M1 or an Intel Mac.
 
-    ```console
-    code ~/.dotfiles/zsh/.zshenv
-    ```
+   ```console
+   code ~/.dotfiles/zsh/.zshenv
+   ```
 
 2. Install Rosetta. Some older applications will fail to install without Rosetta.
 
-    ```console
-    sudo softwareupdate --install-rosetta
-    ```
+   ```console
+   sudo softwareupdate --install-rosetta
+   ```
 
 Open a fresh shell and run:
 
@@ -64,7 +64,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ## Install Python
 
-``` console
+```console
 $ ~/.dotfiles/scripts/install-pipx-packages.sh
 $ ~/.dotfiles/scripts/install-python.sh [VERSION ...]
 ```

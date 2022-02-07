@@ -4,7 +4,7 @@
 BREWFILE=$HOME/Brewfile
 
 
-function ask_confitmation {
+function ask_confirmation {
     printf "\nContents of: $HOME/Brewfile\n\n"
     cat $BREWFILE
     printf "\n"
@@ -91,7 +91,7 @@ function zsh_info {
 
 
 function main {
-    ask_confitmation
+    ask_confirmation
     install_brewfile
     init_yabai
     init_skhd
